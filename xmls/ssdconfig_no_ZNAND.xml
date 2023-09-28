@@ -43,7 +43,7 @@
 		<Preferred_suspend_write_time_for_read>100000</Preferred_suspend_write_time_for_read>
 		<Flash_Channel_Count>16</Flash_Channel_Count>
 		<Flash_Channel_Width>1</Flash_Channel_Width>
-		<Channel_Transfer_Rate>1500</Channel_Transfer_Rate>
+		<Channel_Transfer_Rate>1000</Channel_Transfer_Rate>
 		<Chip_No_Per_Channel>8</Chip_No_Per_Channel>
 		<Flash_Comm_Protocol>NVDDR2</Flash_Comm_Protocol>
 		<Flash_Parameter_Set>
@@ -52,18 +52,18 @@
 			<Page_Read_Latency_LSB>10000</Page_Read_Latency_LSB>
 			<Page_Read_Latency_CSB>10000</Page_Read_Latency_CSB>
 			<Page_Read_Latency_MSB>10000</Page_Read_Latency_MSB>
-			<Page_Program_Latency_LSB>120000</Page_Program_Latency_LSB>
-			<Page_Program_Latency_CSB>120000</Page_Program_Latency_CSB>
-			<Page_Program_Latency_MSB>120000</Page_Program_Latency_MSB>
+			<Page_Program_Latency_LSB>100000</Page_Program_Latency_LSB>
+			<Page_Program_Latency_CSB>100000</Page_Program_Latency_CSB>
+			<Page_Program_Latency_MSB>100000</Page_Program_Latency_MSB>
 			<Block_Erase_Latency>1000000</Block_Erase_Latency>
 			<Block_PE_Cycles_Limit>10000</Block_PE_Cycles_Limit>
 			<Suspend_Erase_Time>700000</Suspend_Erase_Time>
 			<Suspend_Program_Time>100000</Suspend_Program_Time>
 			<Die_No_Per_Chip>2</Die_No_Per_Chip>
 			<Plane_No_Per_Die>2</Plane_No_Per_Die>
-			<Block_No_Per_Plane>2048</Block_No_Per_Plane>
-			<Page_No_Per_Block>256</Page_No_Per_Block>
-			<Page_Capacity>8192</Page_Capacity>
+			<Block_No_Per_Plane>256</Block_No_Per_Plane>
+			<Page_No_Per_Block>64</Page_No_Per_Block>
+			<Page_Capacity>4096</Page_Capacity>
 			<Page_Metadat_Capacity>448</Page_Metadat_Capacity>
 		</Flash_Parameter_Set>
 	</Device_Parameter_Set>

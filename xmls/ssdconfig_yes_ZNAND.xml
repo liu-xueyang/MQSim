@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Execution_Parameter_Set>
 	<Host_Parameter_Set>
-		<PCIe_Lane_Bandwidth>1.00000</PCIe_Lane_Bandwidth>
-		<PCIe_Lane_Count>4</PCIe_Lane_Count>
+		<PCIe_Lane_Bandwidth>2.00000</PCIe_Lane_Bandwidth>
+		<PCIe_Lane_Count>16</PCIe_Lane_Count>
 		<SATA_Processing_Delay>400000</SATA_Processing_Delay>
 		<Enable_ResponseTime_Logging>false</Enable_ResponseTime_Logging>
 		<ResponseTime_Logging_Period_Length>1000000</ResponseTime_Logging_Period_Length>
@@ -49,12 +49,12 @@
 		<Flash_Parameter_Set>
 			<Flash_Technology>MLC</Flash_Technology>
 			<CMD_Suspension_Support>ERASE</CMD_Suspension_Support>
-			<Page_Read_Latency_LSB>15000</Page_Read_Latency_LSB>
-			<Page_Read_Latency_CSB>15000</Page_Read_Latency_CSB>
-			<Page_Read_Latency_MSB>15000</Page_Read_Latency_MSB>
-			<Page_Program_Latency_LSB>150000</Page_Program_Latency_LSB>
-			<Page_Program_Latency_CSB>150000</Page_Program_Latency_CSB>
-			<Page_Program_Latency_MSB>150000</Page_Program_Latency_MSB>
+			<Page_Read_Latency_LSB>10000</Page_Read_Latency_LSB>
+			<Page_Read_Latency_CSB>10000</Page_Read_Latency_CSB>
+			<Page_Read_Latency_MSB>10000</Page_Read_Latency_MSB>
+			<Page_Program_Latency_LSB>100000</Page_Program_Latency_LSB>
+			<Page_Program_Latency_CSB>100000</Page_Program_Latency_CSB>
+			<Page_Program_Latency_MSB>100000</Page_Program_Latency_MSB>
 			<Block_Erase_Latency>1000000</Block_Erase_Latency>
 			<Block_PE_Cycles_Limit>10000</Block_PE_Cycles_Limit>
 			<Suspend_Erase_Time>700000</Suspend_Erase_Time>
